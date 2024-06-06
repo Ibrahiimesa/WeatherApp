@@ -16,7 +16,7 @@ const WeatherInfo = ({ weatherData })=> {
       <Text style={styles.text}>{weatherData.weather[0].description}</Text>
       <View style={[styles.rowContainer, styles.marginTop20]}>
         <Text style={[styles.text, styles.bold]}>Visibility :</Text>
-        <Text style={[styles.text, styles.marginLeft15]}>{weatherData.visibility} km km</Text>
+        <Text style={[styles.text, styles.marginLeft15]}>{weatherData.visibility} km</Text>
       </View>
       <View style={[styles.rowContainer, styles.marginTop20]}>
         <Text style={[styles.text, styles.bold]}>Wind Speed :</Text>
